@@ -1,6 +1,6 @@
-##DeveloperHit
+#DeveloperHit
 
-After exploring some Web APIs associated with the chosen topic, only a few websites provide friendly APIs, especially when an XML format data response is expected. Therefore we decided to build our own APIs by parsing HTML pages responded from target websites:
+After exploring some Web APIs associated with the chosen topic, only a few websites provide friendly APIs, especially when an XML format data response is expected. Therefore we decided to build our own APIs by parsing HTML pages responded from target websites：
 
 - Github
 
@@ -20,7 +20,7 @@ After exploring some Web APIs associated with the chosen topic, only a few websi
 
 The frontend will integrate lastest and hot information in a list for users. And we plan to implement it on  Web, iOS and Android platform.
 
-###Backend
+##Backend
 
 | Content | URL                                      |
 | ------- | ---------------------------------------- |
@@ -29,9 +29,9 @@ The frontend will integrate lastest and hot information in a list for users. And
 | V2EX    | https://www.v2ex.com/api/topics/hot.json |
 | Gank    | http://gank.io/api/day/2015/08/07        |
 
-###Android
+##Android
 
-####Dependencies
+###Dependencies
 
 ```java
 compile 'io.reactivex:rxandroid:1.1.0'
@@ -53,11 +53,11 @@ compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
 compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
 ```
 
-####How to run
+###How to run
 
 - Just download the project and run in android studio
 
-#### Screenshot
+###Screenshot
 
 - GitHub
 
