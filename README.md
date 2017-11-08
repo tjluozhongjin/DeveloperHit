@@ -118,8 +118,6 @@ Android client is based on listview to show information from four different webs
     }
     ```
 
-    ​
-
 - deal with xml example
 
   - service
