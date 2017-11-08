@@ -31,7 +31,54 @@ The frontend will integrate lastest and hot information in a list for users. And
 
 ## Android
 
+###Dependencies
 
+```
+compile 'io.reactivex:rxandroid:1.1.0'
+compile 'io.reactivex:rxjava:1.1.3'
+compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
+compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+compile 'com.android.support:support-v4:23.4.0'
+compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
+compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+compile 'com.facebook.fresco:fresco:0.9.0+'
+compile ('com.squareup.retrofit2:converter-simplexml:2.1.0'){
+    exclude group: 'xpp3', module: 'xpp3'
+    exclude group: 'stax', module: 'stax-api'
+    exclude group: 'stax', module: 'stax'
+}
+compile 'io.reactivex.rxjava2:rxjava:2.1.6'
+compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+```
 
+### How to run
 
+- Just download the project and run in android studio
 
+### Screenshot
+
+- GitHub
+
+![github](./img/github.png)![github_detail](./img/github_detail.png)
+
+- V2EX
+
+![v2ex](./img/v2ex.png)![v2ex_detail](./img/v2ex_detail.png)
+
+- Gank
+
+![gank](./img/gank.png)![gank_detail](./img/gank_detail.png)
+
+- ZhiHu
+
+![zhihu](./img/zhihu.png)![zhihu_detail](./img/zhihu_detail.png)
+
+### Web
+
+- Repo:  https://github.com/lisirrx/DevelopmentHit
+
+### IOS
+
+- Repo：https://github.com/zjzsliyang/DeveloperHit
