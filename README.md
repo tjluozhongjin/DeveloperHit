@@ -31,7 +31,7 @@ The frontend will integrate lastest and hot information in a list for users. And
 
 ## Android
 
-Dependencies
+### Dependencies
 
 ```
 compile 'io.reactivex:rxandroid:1.1.0'
