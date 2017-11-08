@@ -100,7 +100,7 @@ public class GitHubAdapter extends BaseAdapter {
 
             GitHubService gitHubService = retrofit.create(GitHubService.class);
 
-            rx.Observable<GitHubModel.Repository> repositoryObservable = gitHubService.getRepositoryData(news.getOwner(),news.getRepository_name(),"725223c65cc5b0f75ff02b005b791cfdf5ed27b6");
+            rx.Observable<GitHubModel.Repository> repositoryObservable = gitHubService.getRepositoryData(news.getOwner(),news.getRepository_name(),"186a796f01aa9998fc0e5d2efe641f8427cf31f0");
 
 
             //System.out.println(news.getName().replace(" ",""));

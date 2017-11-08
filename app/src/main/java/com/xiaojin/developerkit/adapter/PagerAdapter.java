@@ -12,9 +12,7 @@ import com.xiaojin.developerkit.ui.fragment.ZhiHuFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Administrator on 2016/5/26.
- */
+
 public class PagerAdapter extends FragmentPagerAdapter {
     private final String[] title={"GitHub","V2EX","Gank","ZhiHu"};
     private List<Fragment>fragments=new ArrayList<Fragment>();
